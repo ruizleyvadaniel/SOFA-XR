@@ -8,9 +8,14 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/SofaUnity/Scenes/Demos/Interaction/SofaScenes/Demo_01_LiverInteraction.unity
     guid: 19932f76f3108c140a35271e528ab9a1
+  - enabled: 1
+    path: Assets/Scenes/SOFA-XR.unity
+    guid: c2248e0739b6e4e46b7ded56104f7ed0
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2f41c6d347fcc9044a2d6d3f0b39a648, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2c3e6f28bb3a8a54b9a15dadefdde94c, type: 2}
   m_UseUCBPForAssetBundles: 0
