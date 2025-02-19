@@ -11,15 +11,17 @@ public class ToolCutActivateOnStart : MonoBehaviour
         if (cutTool == null)
             cutTool = GetComponentInChildren<SofaLaserModel>();
 
-        Invoke("ActivateTool", 2f);
+        Invoke("ActivateTool", 3f);
     }
 
     void ActivateTool()
     {
-        cutTool.m_drawRay = true;
-        cutTool.DrawLaser = true;
+        cutTool.ActivateTool = true;
+        cutTool.m_drawRay = false;
+        cutTool.DrawLaser = false;
         cutTool.DrawLight = false;
-        cutTool.Length= 2.5f;
+        cutTool.Length= 9f;
+        cutTool.RayWidth = 3f;
         cutTool.ActivateTool = true;
     }
 }
